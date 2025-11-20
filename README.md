@@ -64,3 +64,12 @@ The project uses several external media files (`.mp4` videos and `.ttf` fonts) t
 This content should be perfect for setting up your GitHub repository!
 
 Would you like me to help you set up the actual Git commands for cloning, committing, and pushing this project?
+
+<img width="1598" height="759" alt="Screenshot 2025-11-20 120821" src="https://github.com/user-attachments/assets/87b4c268-da8e-4e68-9a35-135ddd0a8363" />
+<img width="1599" height="764" alt="Screenshot 2025-11-20 120838" src="https://github.com/user-attachments/assets/d9aec51c-ae57-450f-ba1b-d48ba1555202" />
+<img width="1599" height="722" alt="Screenshot 2025-11-20 120854" src="https://github.com/user-attachments/assets/93b5a2cc-687f-43d7-9f90-adfde230ee0d" />
+<img width="1599" height="767" alt="Screenshot 2025-11-20 120907" src="https://github.com/user-attachments/assets/9c0a4155-49c4-4c6f-a946-6cbe80cad2b3" />
+<img width="1599" height="768" alt="Screenshot 2025-11-20 120927" src="https://github.com/user-attachments/assets/48933953-f38c-4a05-8760-9e85c0a6a0df" />
+<img width="1599" height="716" alt="Screenshot 2025-11-20 120944" src="https://github.com/user-attachments/assets/279d4520-20bc-4e46-83fe-9257ba357d17" />
+<img width="1599" height="757" alt="Screenshot 2025-11-20 120954" src="https://github.com/user-attachments/assets/3cef572f-d070-43c8-9e6c-e6e020e140aa" />
+
