@@ -495,4 +495,188 @@ nav h4 {
     #menu-panel {
         width: 100vw;
     }
+    /* =========================================
+   MOBILE RESPONSIVE STYLES (Max-Width 600px)
+   ========================================= */
+@media (max-width: 600px) {
+
+    /* --- General Adjustments --- */
+    #main {
+        overflow-x: hidden;
+    }
+    
+    /* Hide custom cursor on mobile (Touch devices don't need it) */
+    #cursor {
+        display: none !important;
+    }
+
+    /* --- Navigation --- */
+    nav {
+        padding: 5vw;
+        align-items: center;
+    }
+    nav h3 {
+        font-size: 5vw; /* Increased from 1.4vw */
+    }
+    nav h4 {
+        font-size: 4.5vw;
+        padding: 2vw 4vw;
+        border: 1px solid white; /* Added border for better touch target */
+        border-radius: 50px;
+    }
+
+    /* --- Menu Panel Mobile --- */
+    #menu-panel {
+        width: 100vw; /* Full width on mobile */
+        padding-top: 25vw;
+        padding-left: 8vw;
+        background-color: rgba(0, 0, 0, 0.9); /* Darker background for readability */
+    }
+    .menu-item a {
+        font-size: 12vw; /* Larger links */
+        margin-bottom: 2vw;
+    }
+    .menu-subtext {
+        font-size: 4vw;
+    }
+
+    /* --- Page 1 (Hero) --- */
+    #page1-content {
+        padding-top: 15vw;
+    }
+    #page1-content h1 {
+        font-size: 16vw; /* Adjusted for portrait mode */
+        line-height: 16vw;
+    }
+
+    /* --- Page 2 (About) --- */
+    #page2 {
+        padding: 5vw;
+    }
+    .page2-top {
+        flex-direction: column; /* Stack elements vertically */
+        gap: 8vw;
+        margin-bottom: 10vw;
+    }
+    .page2-top div {
+        width: 100%;
+    }
+    .page2-top p {
+        font-size: 4.5vw; /* Readable paragraph text */
+    }
+    #page2 .elem h1 {
+        font-size: 7vw; /* Increase animated text size */
+        line-height: 8vw;
+        text-align: left; /* Easier to read on mobile */
+    }
+
+    /* --- Page 3 (Work) --- */
+    #page3 {
+        padding: 5vw;
+    }
+    #page3-top h4 {
+        font-size: 4vw;
+        margin-bottom: 4vw;
+    }
+    #page3-top h4 span {
+        font-size: 3vw;
+        padding: 4px 8px;
+    }
+    #page3-top h2 {
+        font-size: 8vw;
+    }
+
+    #page3-elements {
+        flex-direction: column; /* Stack video boxes */
+        height: auto; /* Allow height to grow */
+        margin-top: 10vw;
+        gap: 5vw;
+    }
+    #page3-elements .box {
+        width: 100%; /* Full width */
+        height: 60vh; /* Fixed height for each video */
+    }
+    /* Ensure video covers the box area correctly */
+    #page3-elements .box video, 
+    #page3-elements .box img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* --- Page 4 (Sphere) --- */
+    #page4 {
+        height: 60vh; /* Reduce height slightly */
+    }
+    /* Resize the SVG circle animation */
+    #page4 svg {
+        width: 80vw;
+        height: 80vw;
+    }
+    .sphere {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    /* --- Page 5 (Swiper) --- */
+    #page5 {
+        height: 70vh;
+    }
+    #page5 h1 {
+        font-size: 15vw;
+        margin-bottom: 10vw;
+    }
+    .swiper-slide {
+        width: 70vw; /* Wider slides on mobile */
+        height: 70vw;
+    }
+
+    /* --- Footer --- */
+    #footer {
+        height: auto; /* Let content dictate height */
+        padding-bottom: 10vw;
+        gap: 10vw;
+    }
+    #footer-top {
+        flex-direction: column;
+        gap: 10vw;
+    }
+    #footer-left h3 {
+        font-size: 6vw; /* Bigger headings */
+    }
+    #footer-right {
+        flex-direction: column;
+        width: 100%;
+        gap: 8vw;
+    }
+    .link-col h4 {
+        font-size: 5vw;
+        margin-bottom: 3vw;
+    }
+    .link-col a {
+        font-size: 4.5vw;
+        margin-bottom: 2vw;
+        display: block; /* Ensure easy tapping */
+        padding: 5px 0;
+    }
+    #footer-center h1 {
+        font-size: 23vw; /* Massive footer text */
+        margin: 5vw 0;
+    }
+    #footer-bottom {
+        flex-direction: column;
+        gap: 2vw;
+        align-items: center;
+        text-align: center;
+    }
+    #footer-bottom p {
+        font-size: 3.5vw;
+    }
+    
+    /* Loader Text Fix */
+    #loader h3 {
+        font-size: 8vw;
+    }
+}
+
 }
