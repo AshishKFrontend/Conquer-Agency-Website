@@ -47,7 +47,7 @@ The project uses several external media files (`.mp4` videos and `.ttf` fonts) t
 
 | File | Description |
 | :--- | :--- |
-| `website link` |(https://ashishcodewala.github.io/Conquer-Agency-Website/) | 
+| `website link` |(https://ashishkfrontend.github.io/Conquer-Agency-Website/) | 
 | `index.html` | The main HTML structure, including links to external libraries and all sections. |
 | `style.css` | All the styling for the website, including custom fonts and responsive media queries. |
 | `script.js` | Contains all the JavaScript logic, including the setup for Locomotive Scroll, GSAP animations, the custom cursor, Swiper, and the loader. |
