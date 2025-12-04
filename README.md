@@ -1,3 +1,9 @@
+
+
+
+Uploading The_celebrity_speak_202512041549.mp4…
+
+
 # Conquer-Agency-Website
 A full-screen, scroll-driven creative agency website featuring smooth animations using GSAP and Locomotive Scroll, a custom cursor, Swiper slider, and a loading screen.
 # 🟠 Conquer Agency Website
